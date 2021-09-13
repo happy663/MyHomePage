@@ -1,6 +1,7 @@
 import Styles from "../styles/Index.module.css";
-import Header from "../components/header";
-import Layout from "../components/layout";
+import Header from "../components/Header";
+import Layout from "../components/Layout";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
         <h1 className={Styles.mytitle}>ホームページ</h1>
         <p>ここはビヨンド外山のホームページです</p>
         <Header title={"toyamaは天才"}></Header>
+        <Link href="/about">
+          <a>記事へ</a>
+        </Link>
       </div>
     </Layout>
   );
