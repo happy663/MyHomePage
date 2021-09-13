@@ -1,4 +1,4 @@
-import Styles from "../styles/Index.module.css";
+import Styles from "../styles/PageIndex.module.css";
 import Header from "../components/Header";
 import Layout from "../components/Layout";
 import Link from "next/link";
